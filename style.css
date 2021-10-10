@@ -1,0 +1,137 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #000;
+}
+ul{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 300px;
+	height: 300px;	
+	display: flex;
+}
+ul:before{
+	position: absolute;
+	content: '\f1e0';
+	width: 65px;
+	font-family: fontAwesome;
+	height: 65px;
+	z-index: 3;
+	font-size: 33px;
+	cursor: pointer;
+	top: 120px;
+	left: 120px;
+	line-height:65px;
+	text-align: center;
+	background:linear-gradient(#ff00ff,#8a2be2);
+	border-radius: 50%;
+	color:#fff;
+	transition:all 1.5s;
+}
+ul:hover:before{
+	transform: rotate(-360deg);
+}
+ul li{
+	position: absolute;
+	list-style: none;
+	top:120px;
+	left: 110px;
+	transition: 1s;
+}
+ul li a{
+	display: block;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+    background: #333;
+    color: #fff;
+    border-radius: 50%;
+    margin: 0 12px;
+    font-size: 33px;
+}
+#twitter{
+    transform: rotate(60deg);
+
+}
+#google-plus{
+	transform: rotate(120deg);
+
+}
+#instagram{
+	transform: rotate(180deg);
+	
+}
+#whatsapp {
+	transform: rotate(240deg);
+}
+#linkedin{
+    transform: rotate(300deg);
+}
+ul li:nth-child(1) a{
+    transition: all 0s 0s ease;
+	background: #3b5999;
+}
+ul li:nth-child(2) a{
+	
+	background: #55acee;
+     transition:all 0s  0.2s ease;
+}
+ul li:nth-child(3) a{
+	
+	background: #dd4b39;
+    transition:all 0.2s 0.4s ease;
+}
+ul li:nth-child(4) a{
+transition:all 0.4s 0.6s ease;
+	background: #e4405f;
+}
+ul li:nth-child(5) a{
+	  transition:all 0.6s 0.8s ease;
+	background: #25D366;
+}
+ul li:nth-child(6) a{
+	  transition:all 0.8s 1s ease;
+	background: #0077B5;
+}
+
+
+
+
+
+ul:hover li:nth-child(1) a{
+	
+
+	transform: translatex(100px);
+}
+ul:hover li:nth-child(2) a{
+	   
+		transform: rotateZ(-60deg) translatex(100px) ;
+}
+ul:hover li:nth-child(3) a{
+
+	    
+		transform:rotateZ(-120deg) translatex(100px) ;
+
+
+}
+ul:hover li:nth-child(4) a{
+
+			    
+		transform: rotateZ(-180deg) translatex(100px);
+
+}
+ul:hover li:nth-child(5) a{
+
+	
+		transform: rotateZ(-240deg) translatex(100px);
+
+}
+ul:hover li:nth-child(6) a{
+
+		
+		transform: rotateZ(-300deg) translatex(100px);
+
+}

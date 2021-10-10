@@ -15,5 +15,14 @@
 	<li><a href="#"><i class="fa fa-whatsapp" id="whatsapp"></i></a></li>
 	<li><a href="#"><i class="fa fa-linkedin" id="linkedin"></i></a></li>
 </ul>
+	
+	<script>
+	window.addEventListener("load", () => {
+            if ("serviceWorker" in navigator) {
+                navigator.serviceWorker.register("service-worker.js");
+            }
+        });
+	</script>
+	
 </body>
 </html>

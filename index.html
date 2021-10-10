@@ -4,6 +4,12 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="manifest" href="manifest.json">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<script type="module">
+   import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+   const el = document.createElement('pwa-update');
+   document.body.appendChild(el);
+</script>
 
 </head>
 <body>
@@ -15,14 +21,6 @@
 	<li><a href="#"><i class="fa fa-whatsapp" id="whatsapp"></i></a></li>
 	<li><a href="#"><i class="fa fa-linkedin" id="linkedin"></i></a></li>
 </ul>
-	
-	<script>
-	window.addEventListener("load", () => {
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('service-worker.js');
-}
-        });
-	</script>
 	
 </body>
 </html>

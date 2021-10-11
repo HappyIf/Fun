@@ -44,19 +44,5 @@
       "type": "image/png",
       "sizes": "512x512"
     }
-  ],
-    "url_handlers": [
-    {
-      "origin": "https://music.example.com"
-    },
-    {
-      "origin": "https://*.music.example.com"
-    },
-    {
-      "origin": "https://🎵.example.com"
-    },
-    {
-      "origin": "https://happyif.github.io/Fun/"
-    }
   ]
 }

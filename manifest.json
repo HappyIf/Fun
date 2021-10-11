@@ -6,7 +6,7 @@
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#fff",
-  "theme_color": "#640700",
+  "theme_color": "#181818",
   "newBranch":"true",
   "icons": [
     {

@@ -1,7 +1,7 @@
 {
   "name": "IF Manager",
   "short_name": "IF Manager",
-  "start_url": "/", 
+  "start_url": "if://", 
   "scope": "if://",
   "display": "standalone",
   "orientation": "portrait",

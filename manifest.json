@@ -45,5 +45,18 @@
       "sizes": "512x512"
     }
   ],
-  "intent_filters": { "scope_url_scheme": "https", "scope_url_host": "pwa.rocks", "scope_url_path": "/" }
+    "url_handlers": [
+    {
+      "origin": "https://music.example.com"
+    },
+    {
+      "origin": "https://*.music.example.com"
+    },
+    {
+      "origin": "https://🎵.example.com"
+    },
+    {
+      "origin": "https://happyif.github.io/Fun/"
+    }
+  ]
 }

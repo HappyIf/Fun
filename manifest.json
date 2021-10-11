@@ -2,7 +2,7 @@
   "name": "IF Manager",
   "short_name": "IF Manager",
   "start_url": "/", 
-  "scope": "/",
+  "scope": "if://",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#fff",

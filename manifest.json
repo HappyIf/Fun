@@ -1,6 +1,6 @@
 {
   "name": "IF Manager",
-  "short_name": "IF Manager",
+  "short_name": "IF",
   "start_url": "/", 
   "scope": "/",
   "display": "standalone",

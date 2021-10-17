@@ -1,7 +1,7 @@
 {
   "name": "IF",
   "short_name": "IF",
-  "start_url": "if://",
+  "start_url": "./",
   "scope": "if://.",
   "display": "standalone",
   "orientation": "portrait",

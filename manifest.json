@@ -2,7 +2,7 @@
   "name": "IF",
   "short_name": "IF",
   "start_url": "./", 
-  "scope": ".",
+  "scope": "if://.",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#fff",

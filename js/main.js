@@ -14,7 +14,7 @@ document.getElementById("og_description").setAttribute("content", color);
 
 const newUser = urlParams.get('newuser')
 console.log(newUser);
-document.getElementById("og_gescription").setAttribute("content", color);
+//document.getElementById("og_gescription").setAttribute("content", color);
 // user name
 
 window.addEventListener('load',main)

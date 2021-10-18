@@ -1,3 +1,11 @@
+<?php
+$value = "";
+if ( isset ( $_GET["value"] ) ) {
+  $value = $_GET["value"];
+}
+?>
+
+
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html lang="en">
 <head>
@@ -9,7 +17,10 @@
   </script>
 </head>
 <body>
-  <h1>Web Protocol Handler Sample</h1>
-  <p>This web page will install a web protocol handler for the <code>web+burger:</code> protocol.</p>
+  <h1>Web Protocol Handler Sample - Handler</h1>
+  <p>This web page is called when handling a <code>web+burger:</code> protocol action. The data sent:</p>
+  <textarea>
+<?php echo(htmlspecialchars($value, ENT_QUOTES, 'UTF-8')); ?>
+  </textarea>
 </body>
 </html>

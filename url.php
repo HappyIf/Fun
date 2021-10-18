@@ -4,7 +4,7 @@
   <title>Web Protocol Handler Sample - Register</title>
   <script type="text/javascript">
     navigator.registerProtocolHandler("web+burger",
-                                  "http://www.google.co.uk/?uri=%s",
+                                  "https://happyif.github.io/Fun/url.html?uri=%s",
                                   "Burger handler");
   </script>
 </head>

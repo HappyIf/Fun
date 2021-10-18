@@ -1,5 +1,21 @@
+const queryString = window.location.search;
+console.log(queryString);
+const urlParams = new URLSearchParams(queryString);
 
+const product = urlParams.get('product')
+console.log(product);
+document.getElementById("og_title").setAttribute("content", product);
+// shirt
 
+const color = urlParams.get('color')
+console.log(color);
+document.getElementById("og_description").setAttribute("content", color);
+// blue
+
+const newUser = urlParams.get('newuser')
+console.log(newUser);
+document.getElementById("og_gescription").setAttribute("content", color);
+// user name
 
 window.addEventListener('load',main)
 function main(){

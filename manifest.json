@@ -8,6 +8,13 @@
   "background_color": "#fff",
   "theme_color": "#181a1b",
   "newBranch":"true",
+  "protocol_handlers": [
+  {
+    "protocol": "web+if",
+    "name": "My App",
+    "uriTemplate": "https://happyif.github.io/Fun/#!/%s"
+  }
+  ],
   "icons": [
     {
       "src": "assets/icons/icon.png",
